@@ -6,7 +6,14 @@ A Currency Converter API built with **Go (Gin)** that uses **Keploy** for e2e te
 - Uses a public, open-source exchange rate provider.
 - Integrated with **Keploy** to record and replay API interactions, ensuring tests pass even if exchange rates change or the internet is down.
 
+# Prerequisites
 
+1. **Keploy**: [Installation guide](https://keploy.io/docs/server/installation/)
+2. Golang
+3. Gin (Golang framework) 
+    ```
+    go get -u github.com/gin-gonic/gin`
+    ```
 # Installation
 
 1. Clone the repo
