@@ -1,3 +1,5 @@
+# Testing Live Currency Rates with Keploy & Go
+
 We know that modern applications rely heavily on external APIs. But have you ever wonder what happens when those APIs change, rate-limit you, or simply go down? And how do you ensure your application logic remains solid despite these external fluctuations? In this blog, let’s explore how to integrate Keploy into a Go application to solve these challenges.
 
 ## What is Keploy?
